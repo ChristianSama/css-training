@@ -1,3 +1,9 @@
 :root {
+  /* Font Sizes */
   --global-font-size: 62.5%;
-}
+
+  /* Colors */
+  --color-bg-light: #CACACA;
+  --color-primary-light: #151515;
+  --color-secondary-light: #FFFFFF;
+};

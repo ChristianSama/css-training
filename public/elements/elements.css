@@ -1,0 +1,7 @@
+body {
+  background-color: var(--color-bg-light);
+}
+
+ul {
+  list-style-type: none;
+}
