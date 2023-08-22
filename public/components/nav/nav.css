@@ -1,3 +1,37 @@
 .nav {
+  --nav-height: 5.2rem;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: var(--nav-height);
+}
+
+.nav__brand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__menu {
+  width: 90vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: var(--nav-height);
+  transform: translateX(120%);
+}
+
+.nav__menu--expanded {
+  transform: translateX(0);
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.nav__auth {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }

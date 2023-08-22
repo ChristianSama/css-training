@@ -1,7 +1,15 @@
 body {
-  background-color: var(--color-bg-light);
+  background-color: var(--color-main-grey);
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, a, p, div {
+  text-decoration: none;
+  color: var(--color-main-black);
+  font-size: var(--font-size-xs);
 }
