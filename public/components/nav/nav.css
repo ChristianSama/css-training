@@ -1,37 +1,54 @@
 .nav {
   --nav-height: 5.2rem;
+  position: fixed;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  height: var(--nav-height);
+  max-height: var(--nav-height);
+  width: 100vw;
 }
 
-.nav__brand {
-  display: flex;
-  justify-content: space-between;
+.nav__logo {
+  height: 5.2rem;
+}
+
+.nav__expand-btn {
+  height: 5.2rem;
 }
 
 .nav__menu {
-  width: 90vw;
+  width: 80vw;
+  max-width: 30rem;
   height: 100vh;
   position: absolute;
   right: 0;
   top: var(--nav-height);
+  background-color: antiquewhite;
   transform: translateX(120%);
+  transition: transform 0.3s ease-in-out;
 }
 
-.nav__menu--expanded {
+.nav__menu[aria-expanded="true"] {
   transform: translateX(0);
 }
 
-.nav__list {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
+.nav__list-item {
+  width: 100%;
 }
 
-.nav__auth {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
+.nav__link {
+  display: block;
+  padding: 2rem 2rem;
+  width: 100%;
+  text-align: end;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__signup-btn {
+  display: block;
+  padding: 2rem 2rem;
+  width: 100%;
+  text-align: end;
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: var(--color-main-grey);
+  background-color: var(--color-light-neutral);
 }
 
 ul {
@@ -10,6 +10,15 @@ ul {
 
 h1, a, p, div {
   text-decoration: none;
-  color: var(--color-main-black);
+  color: var(--color-light-primary);
   font-size: var(--font-size-xs);
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+  display: block;
 }
