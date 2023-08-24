@@ -52,3 +52,25 @@
   width: 100%;
   text-align: end;
 }
+
+@media screen and (min-width: 768px) {
+  .nav {
+    justify-content: initial;
+  }
+  .nav__list {
+    display: flex;
+  }
+  .nav__expand-btn {
+    display: none;
+  }
+  .nav__menu {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    transform: none;
+    transition: none;
+  }
+}
