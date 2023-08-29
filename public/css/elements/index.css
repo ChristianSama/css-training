@@ -1,33 +1,6 @@
-body {
-  background-color: var(--color-light-neutral);
-  color: var(--color-light-primary);
-  font-size: var(--font-size-xs);
-  line-height: 2.6rem;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: var(--color-light-primary);
-}
-
-button {
-  padding: 0;
-  margin: 0;
-  border: none;
-  font-size: 1rem;
-  font-family: inherit;
-  display: block;
-}
-
-.content {
-  background-color: aquamarine;
-  border: 2px solid red;
-  height: 40rem;
-  padding-top: 10rem;
-}
+@import "body.css";
+@import "button.css";
+@import "fonts.css";
+@import "link.css";
+@import "list.css";
+@import "section.css";

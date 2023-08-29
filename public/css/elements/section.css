@@ -1,0 +1,5 @@
+section {
+  border: 2px solid var(--color-light-primary);
+  height: 40rem;
+  padding-top: 10rem;
+}

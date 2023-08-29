@@ -16,7 +16,6 @@
   position: absolute;
   right: 0;
   top: var(--nav-height);
-  background-color: var(--color-light-secondary);
   transform: translateX(120%);
   transition: transform 0.3s ease-in-out;
 }
