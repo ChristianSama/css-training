@@ -14,7 +14,12 @@
   --font-weight-ultrabold: 800;
 
   /* Colors */
-  --color-light-primary: #151515;
-  --color-light-secondary: #FFFFFF;
-  --color-light-neutral: #F0F0F0;
+  --color-black: #151515;
+  --color-white: #FFFFFF;
+  --color-grey: #F0F0F0;
+
+  /* Theme colors */
+  --color-light-primary: var(--color-black);
+  --color-light-secondary: var(--color-white);
+  --color-light-neutral: var(--color-grey);
 };
