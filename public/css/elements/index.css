@@ -1,6 +1,8 @@
 body {
   background-color: var(--color-light-neutral);
-  font-size: 1.8rem;
+  color: var(--color-light-primary);
+  font-size: var(--font-size-xs);
+  line-height: 2.6rem;
 }
 
 ul {
@@ -9,10 +11,9 @@ ul {
   padding: 0;
 }
 
-h1, a, p, div {
+a {
   text-decoration: none;
   color: var(--color-light-primary);
-  font-size: var(--font-size-xs);
 }
 
 button {
@@ -22,4 +23,11 @@ button {
   font-size: 1rem;
   font-family: inherit;
   display: block;
+}
+
+.content {
+  background-color: aquamarine;
+  border: 2px solid red;
+  height: 40rem;
+  padding-top: 10rem;
 }
