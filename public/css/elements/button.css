@@ -2,7 +2,8 @@ button {
   padding: 0;
   margin: 0;
   border: none;
-  font-size: 1rem;
   font-family: inherit;
-  display: block;
+  display: inline-block;
+  cursor: pointer;
+  line-height: inherit;
 }

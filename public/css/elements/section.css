@@ -1,5 +1,5 @@
 section {
-  border: 2px solid var(--color-light-primary);
+  border: 2px solid var(--text-color);
   height: 40rem;
   padding-top: 10rem;
 }

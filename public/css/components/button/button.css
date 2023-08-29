@@ -6,21 +6,29 @@
 }
 
 .btn-primary {
-  background-color: var(--color-light-primary);
-  color: var(--color-light-secondary);
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-light-secondary);
-  color: var(--color-light-primary);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
 }
 
 .btn-secondary {
-  background-color: var(--color-light-neutral);
-  color: var(--color-light-primary);
+  background-color: var(--color-neutral);
+  color: var(--text-color);
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-light-secondary);
-  color: var(--color-light-primary);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    text-align: center;
+  }
 }
