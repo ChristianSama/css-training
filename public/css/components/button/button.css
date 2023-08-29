@@ -1,0 +1,26 @@
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  width: 100%;
+  text-align: end;
+}
+
+.btn-primary {
+  background-color: var(--color-light-primary);
+  color: var(--color-light-secondary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-light-secondary);
+  color: var(--color-light-primary);
+}
+
+.btn-secondary {
+  background-color: var(--color-light-neutral);
+  color: var(--color-light-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-light-secondary);
+  color: var(--color-light-primary);
+}

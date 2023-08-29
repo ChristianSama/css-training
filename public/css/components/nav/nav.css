@@ -35,13 +35,6 @@
   text-decoration: underline;
 }
 
-.nav__signup-btn {
-  display: block;
-  padding: 2rem 2rem;
-  width: 100%;
-  text-align: end;
-}
-
 .nav-spacer {
   height: 10rem;
 }
@@ -52,6 +45,8 @@
   }
   .nav__list {
     display: flex;
+    align-items: center;
+    gap: 1rem;
   }
   .nav__expand-btn {
     display: none;
