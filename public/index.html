@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Training</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav__logo">
+          <img src="/public/assets/logos/Oval 3.svg" alt="Logo" />
+        </div>
+        <button class="nav__expand-btn">
+          <img src="/public/assets/logos/menu.svg" alt="expand" />
+        </button>
+        <div class="nav__menu" aria-expanded="false">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">About us</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">How it works</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">FAQ</a>
+            </li>
+          </ul>
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#" class="btn btn-secondary">Login</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="btn btn-primary">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="nav-spacer"></div>
+    <div class="theme-selector">
+      <button class="btn btn-primary theme-selector__btn">
+        Theme
+        <ul class="theme-selector__menu">
+          <li class="theme-selector__item">
+            <input
+              type="radio"
+              id="light"
+              name="theme"
+              value="light-theme"
+              checked
+            />
+            <label for="light">Light</label>
+          </li>
+          <li class="theme-selector__item">
+            <input type="radio" id="dark" name="theme" value="dark-theme" />
+            <label for="dark">Dark</label>
+          </li>
+          <li class="theme-selector__item">
+            <input type="radio" id="sb" name="theme" value="sb-theme" />
+            <label for="sb">Stack Builders</label>
+          </li>
+        </ul>
+      </button>
+    </div>
+    <section class="content"></section>
+    <script src="js/index.js"></script>
+  </body>
+</html>

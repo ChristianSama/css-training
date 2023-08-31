@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Neue-Machina";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../assets/fonts/PP_Neue_Machina/PPNeueMachina-PlainRegular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neue-Machina";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../../assets/fonts/PP_Neue_Machina/PPNeueMachina-PlainUltrabold.otf") format("opentype");
+}

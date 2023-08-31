@@ -1,0 +1,45 @@
+:root {
+  /* Font Sizes */
+  --global-font-size: 62.5%;
+  --font-size-xxl: 8rem;
+  --font-size-xl: 7rem;
+  --font-size-lg: 6rem;
+  --font-size-md: 2.8rem;
+  --font-size-sm: 2rem;
+  --font-size-xs: 1.8rem;
+  --font-size-xxs: 1.4rem;
+
+  /* Font Weight */
+  --font-weight-regular: 400;
+  --font-weight-ultrabold: 800;
+
+  /* Colors */
+  --color-light-text: #151515;
+  --color-light-bg: #ffffff;
+  --color-light-neutral: #f0f0f0;
+
+  --color-dark-text: #ffffff;
+  --color-dark-bg: #151515;
+  --color-dark-neutral: #f0f0f0;
+
+  --color-sb-text: #172951;
+  --color-sb-bg: #ffffff;
+  --color-sb-neutral: #f0f0f0;
+
+  /* Theme colors */
+  --text-color: var(--color-light-text);
+  --bg-color: var(--color-light-bg);
+  --neutral-color: var(--color-light-neutral);
+}
+
+.dark-theme {
+  --text-color: var(--color-dark-text);
+  --bg-color: var(--color-dark-bg);
+  --neutral-color: var(--color-dark-neutral);
+}
+
+.sb-theme {
+  --text-color: var(--color-sb-text);
+  --bg-color: var(--color-sb-bg);
+  --neutral-color: var(--color-sb-neutral);
+}

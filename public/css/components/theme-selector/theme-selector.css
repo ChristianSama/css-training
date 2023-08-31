@@ -1,0 +1,23 @@
+.theme-selector__btn{
+  position: fixed;
+  width: auto;
+  bottom: 3vh;
+  right: 3vw;
+  z-index: 10;
+}
+
+.theme-selector__menu {
+  color: var(--text-color);
+  display: none;
+  border: 1px solid var(--text-color);
+  padding: 1rem;
+  position: absolute;
+  bottom: calc(100% + 2rem);
+  width: max-content;
+  right: 0;
+  text-align: start;
+}
+
+.theme-selector__menu[aria-expanded="true"] {
+  display: block;
+}

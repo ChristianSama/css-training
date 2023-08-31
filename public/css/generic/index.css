@@ -1,7 +1,7 @@
-html {
-  font-size: var(--global-font-size);
+* {
+  box-sizing: border-box;
 }
 
-body {
-  font-size: 1.8rem;
+html {
+  font-size: var(--global-font-size);
 }
