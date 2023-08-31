@@ -1,9 +1,9 @@
 const mobileMenuBtn = document.querySelector(".nav__expand-btn");
-const themeBtn = document.querySelector("#btn-theme-selector");
+const themeBtn = document.querySelector(".theme-selector__btn");
 const body = document.querySelector("body");
 
 mobileMenuBtn.addEventListener("click", () => setExpanded(".nav__menu"));
-themeBtn.addEventListener("click", () => setExpanded(".nav__theme-dropdown"));
+themeBtn.addEventListener("click", () => setExpanded(".theme-selector__menu"));
 
 const setExpanded = (selector) => {
   el = document.querySelector(selector);

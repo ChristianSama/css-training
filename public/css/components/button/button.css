@@ -11,20 +11,18 @@
 }
 
 .btn-primary:hover {
-  background-color: var(--bg-color);
+  background-color: var(---bg-color);
   color: var(--text-color);
-  border: 1px solid var(--text-color);
 }
 
 .btn-secondary {
-  background-color: var(--color-neutral);
+  background-color: var(--bg-color);
   color: var(--text-color);
 }
 
 .btn-secondary:hover {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  border: 1px solid var(--text-color);
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
 
 @media screen and (min-width: 768px) {

@@ -29,17 +29,17 @@
   /* Theme colors */
   --text-color: var(--color-light-text);
   --bg-color: var(--color-light-bg);
-  --color-neutral: var(--color-light-neutral);
+  --neutral-color: var(--color-light-neutral);
 }
 
 .dark-theme {
   --text-color: var(--color-dark-text);
   --bg-color: var(--color-dark-bg);
-  --color-neutral: var(--color-dark-neutral);
+  --neutral-color: var(--color-dark-neutral);
 }
 
 .sb-theme {
   --text-color: var(--color-sb-text);
   --bg-color: var(--color-sb-bg);
-  --color-neutral: var(--color-sb-neutral);
+  --neutral-color: var(--color-sb-neutral);
 }
