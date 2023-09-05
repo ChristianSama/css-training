@@ -5,7 +5,8 @@
   justify-content: space-between;
   width: 100%;
   height: var(--nav-height);
-  padding: 0 5%;
+  padding-block: 0;
+  padding-inline: 5%;
   align-items: center;
   background-color: var(--bg-color);
 }
@@ -16,8 +17,8 @@
   max-width: 30rem;
   height: 100vh;
   position: absolute;
-  right: 0;
-  top: var(--nav-height);
+  inset-inline-end: 0;
+  inset-block-start: var(--nav-height);
   transform: translateX(120%);
   transition: transform 0.3s ease-in-out;
 }
@@ -28,7 +29,8 @@
 
 .nav__link {
   display: block;
-  padding: 2rem 2rem;
+  padding-block: 2rem;
+  padding-inline: 2rem;
   width: 100%;
   text-align: end;
 }
