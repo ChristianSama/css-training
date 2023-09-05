@@ -1,0 +1,12 @@
+h1 {
+  line-height: 8rem;
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: -0.4rem;
+}
+
+h3 {
+  line-height: 5.8rem;
+  font-size: var(--font-size-lg);
+  font-weight: 400;
+}

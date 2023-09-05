@@ -32,3 +32,16 @@
     width: auto;
   }
 }
+
+.btn-skip-nav {
+  transition: transform 0.3s ease-in;
+  position: absolute;
+  z-index: 2;
+  transform: translateY(-200%);
+  inset-block-start: 2rem;
+  inset-inline-start: 2rem;
+}
+
+.btn-skip-nav:focus {
+  transform: translateY(0);
+}
